@@ -1,0 +1,13 @@
+#Binary output folder
+/Build
+
+# IntelliJ files
+.idea
+cmake-build-debug
+
+#VSCode settings
+.vscode/
+
+#Visual Studio 2017 settings
+.vs/
+CMakeSettings.json
