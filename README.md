@@ -1,6 +1,6 @@
 # Nostra GLFW
 
-Standard GLFW with CMake support
+Standard GLFW with improved/adjusted CMake support
 
 This library is part of a project made by students of the htw saar (https://www.htwsaar.de/) and supervised 
 by Dipl-Inf (FH) Christopher Olbertz.
@@ -14,13 +14,14 @@ git clone https://github.com/NostraTeam/GLFW.git
 ```` 
 or download the ZIP-compressed directly from GitHub using the link above.
 
-**This code uses a modified version of GLFW (http://www.glfw.org/). The parts of GLFW that were written in C 
-have remained unchanged, but the CMake parts have been rewritten on the base of the original GLFW CMake 
-code.** The NostraTeam is not the author of GLFW.
+**This code uses a modified version of GLFW (http://www.glfw.org/).** The used code is mostly unmodified 
+GLFW, but parts of the CMake files have been adjusted to fit the Nostra build process. Also, files that are
+not required to build GLFW, for example the tests, have not been imported into this repository. **The 
+NostraTeam is not the author of GLFW.**
 
 The currently used GLFW version is 3.2.1.
 
 ## Changes from Standard-GLFW
 
-The files that were provided by GLFW are in the folders "include/" and "src/". In addition to that, the file 
-COPYING.txt is provided by GLFW. **Any other files in this repository have been created by the NostraTeam.**
+The GLFW C source code itself has remained completely unchanged, but the CMake build process has been 
+adjusted.
